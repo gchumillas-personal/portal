@@ -1,0 +1,39 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+.header {
+  background: url('/assets/images/header.jpg') left top / cover no-repeat;
+  height: 25rem;
+  padding: 1.5rem 3rem;
+  position: relative;
+
+  h1 {
+    color: $primary-color-text;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.links {
+  background-color: $primary-color-dark;
+  bottom: 0;
+  display: flex;
+  font-size: $font-size-h5;
+  justify-content: space-between;
+  left: 0;
+  padding: 1.5rem 3rem;
+  position: absolute;
+  width: 100%;
+
+  // TODO: align icons
+  i {
+    &.fa {
+      font-size: $font-size-h3;
+      margin-right: .6rem;
+    }
+  }
+
+  a {
+    color: $primary-color-text;
+    line-height: 0;
+  }
+}
