@@ -4,12 +4,12 @@
 .header {
   background: url('/assets/images/header.jpg') left top / cover no-repeat;
   height: 30rem;
+  margin-bottom: 1.5rem;
   padding: 2rem 3rem;
   position: relative;
 
   h1 {
     color: $primary-color-text;
-    font-family: 'Play', sans-serif;
   }
 }
 
@@ -35,5 +35,15 @@
 
   a {
     color: $primary-color-text;
+  }
+}
+
+.column {
+  padding: 5rem;
+}
+
+.block {
+  h2 {
+    border-bottom: .4rem solid $primary-color-dark;
   }
 }
