@@ -1,1 +1,39 @@
-/*! You can add global styles to this file, and also import other style files */
+@import './assets/css/metrics';
+@import './assets/css/palette';
+
+:scope {
+  body {
+    color: $primary-text-color;
+  }
+
+  h1 {
+    font-size: $font-size-h2;
+  }
+
+  h2 {
+    font-size: $font-size-h3;
+  }
+
+  h3 {
+    font-size: $font-size-h4;
+  }
+
+  a {
+    color: $primary-color-dark;
+    cursor: pointer;
+    font-weight: 400;
+    white-space: nowrap;
+
+    .fa {
+      vertical-align: middle;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  strong {
+    font-weight: 400;
+  }
+}
