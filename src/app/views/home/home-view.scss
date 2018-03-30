@@ -4,7 +4,7 @@
 .header {
   background: url('/assets/images/header.jpg') left top / cover no-repeat;
   height: 30rem;
-  padding: 1rem 2.5rem;
+  padding: 2rem 3rem;
   position: relative;
 
   h1 {
@@ -27,13 +27,13 @@
   // TODO: align icons
   i {
     &.fa {
-      font-size: $font-size-h3;
+      font-size: $font-size-h2;
       margin-right: .6rem;
+      vertical-align: middle;
     }
   }
 
   a {
     color: $primary-color-text;
-    line-height: 0;
   }
 }
