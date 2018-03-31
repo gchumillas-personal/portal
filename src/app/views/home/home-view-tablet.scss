@@ -1,0 +1,12 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+@media (min-width: $mobile-screen) {
+  .links {
+    .email {
+      span {
+        display: inline;
+      }
+    }
+  }
+}

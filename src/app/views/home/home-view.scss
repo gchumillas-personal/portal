@@ -1,10 +1,15 @@
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
+.container {
+  max-width: none;
+  padding: 0;
+}
+
 .header {
   background: url('/assets/images/header.jpg') left top / cover no-repeat;
   height: 30rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   padding: 2rem 3rem;
   position: relative;
 
@@ -24,25 +29,32 @@
   position: absolute;
   width: 100%;
 
-  // TODO: align icons
-  i {
-    &.fa {
-      font-size: $font-size-h2;
-      margin-right: .6rem;
-      vertical-align: middle;
+  .schedule {
+    display: none;
+  }
+
+  .email {
+    span {
+      display: none;
     }
   }
 
+  // TODO: align icons
   a {
     color: $primary-color-text;
+
+    i {
+      font-size: $font-size-h3;
+      margin-right: 1rem;
+      vertical-align: middle;
+    }
   }
 }
 
-.column {
-  padding: 5rem;
-}
-
 .block {
+  margin-bottom: 2.5rem;
+  padding: 0 2rem;
+
   h2 {
     border-bottom: .4rem solid $primary-color-dark;
   }

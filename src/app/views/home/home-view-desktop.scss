@@ -1,0 +1,19 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+@media (min-width: $tablet-screen) {
+  .container {
+    max-width: 112rem;
+    padding: 0 2rem;
+  }
+
+  .links {
+    .schedule {
+      display: block;
+    }
+  }
+
+  .block {
+    padding: 5rem;
+  }
+}
