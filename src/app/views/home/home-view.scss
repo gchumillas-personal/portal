@@ -14,7 +14,9 @@
   position: relative;
 
   h1 {
-    color: $primary-color-text;
+    a {
+      color: $primary-color-text;
+    }
   }
 }
 
