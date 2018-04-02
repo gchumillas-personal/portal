@@ -6,6 +6,18 @@
     color: $primary-text-color;
   }
 
+  .container {
+    // border: 1px solid transparent;
+    max-width: none;
+    min-height: calc(100vh - 5rem);
+    padding: 0;
+  }
+
+  .row {
+    margin-left: auto;
+    width: 100%;
+  }
+
   // TODO: simplifica!
   h1,
   h2,
@@ -49,5 +61,19 @@
 
   strong {
     font-weight: 400;
+  }
+}
+
+@media (min-width: $tablet-screen) {
+  :scope {
+    .container {
+      max-width: 112rem;
+      padding: 0 2rem;
+    }
+
+    .row {
+      margin-left: -1rem;
+      width: calc(100% + 2rem);
+    }
   }
 }

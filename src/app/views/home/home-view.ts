@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   templateUrl: './home-view.html',
   styleUrls: [
-    './home-view.scss',
-    './home-view-tablet.scss',
-    './home-view-desktop.scss'
+    './home-view.scss', './home-view-desktop.scss'
   ]
 })
 export class HomeView {

@@ -1,8 +1,7 @@
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
-@media (min-width: $tablet-screen) {
-  .block {
-    padding: 5rem;
-  }
+.footer {
+  color: $secondary-text-color;
+  text-align: center;
 }

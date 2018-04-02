@@ -1,0 +1,16 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+.body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: $font-size-h3;
+  font-weight: 400;
+  margin: 10rem 0 2.5rem;
+  width: 100%;
+
+  i {
+    font-size: 10rem;
+  }
+}
