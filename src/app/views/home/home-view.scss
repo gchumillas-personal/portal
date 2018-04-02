@@ -1,3 +1,4 @@
+@import '~compass-mixins/lib/compass/css3';
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
@@ -8,7 +9,7 @@
 
 .header {
   background: url('/assets/images/header.jpg') left top / cover no-repeat;
-  height: 30rem;
+  height: 27rem;
   margin-bottom: 2.5rem;
   padding: 2rem 3rem;
   position: relative;
@@ -16,6 +17,7 @@
   h1 {
     a {
       color: $primary-color-text;
+      text-decoration: none;
     }
   }
 }
@@ -24,10 +26,10 @@
   background-color: $primary-color-dark;
   bottom: 0;
   display: flex;
-  font-size: $font-size-h5;
+  font-size: $font-size-h6;
   justify-content: space-between;
   left: 0;
-  padding: 1rem 2.5rem;
+  padding: .6rem 28rem;
   position: absolute;
   width: 100%;
 
@@ -48,7 +50,7 @@
     i {
       font-size: $font-size-h4;
       margin-right: 1rem;
-      vertical-align: middle;
+      // vertical-align: middle;
     }
   }
 }
