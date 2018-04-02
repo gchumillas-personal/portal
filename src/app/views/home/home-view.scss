@@ -25,32 +25,41 @@
 .links {
   background-color: $primary-color-dark;
   bottom: 0;
-  display: flex;
-  font-size: $font-size-h6;
-  justify-content: space-between;
   left: 0;
-  padding: .6rem 28rem;
   position: absolute;
+  text-align: center;
   width: 100%;
 
-  .schedule {
-    display: none;
+  ul {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
-  .email {
-    span {
+  li {
+    line-height: 2.5;
+    margin: 0 1.6rem;
+
+    &.clock {
       display: none;
+    }
+
+    &.email {
+      span {
+        display: none;
+      }
     }
   }
 
-  // TODO: align icons
   a {
     color: $primary-color-text;
+    font-size: $font-size-h5;
 
-    i {
-      font-size: $font-size-h4;
-      margin-right: 1rem;
-      // vertical-align: middle;
+    span {
+      margin-left: .4rem;
     }
   }
 }
