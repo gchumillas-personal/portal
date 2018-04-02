@@ -4,6 +4,7 @@
 
 .container {
   max-width: none;
+  min-height: calc(100vh - 5rem);
   padding: 0;
 }
 
@@ -89,4 +90,9 @@
       margin-right: 1rem;
     }
   }
+}
+
+.footer {
+  color: $secondary-text-color;
+  text-align: center;
 }
