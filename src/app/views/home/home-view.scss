@@ -9,7 +9,7 @@
 
 .header {
   background: url('/assets/images/header.jpg') left top / cover no-repeat;
-  height: 27rem;
+  height: 25rem;
   margin-bottom: 2.5rem;
   padding: 2rem 3rem;
   position: relative;
@@ -41,7 +41,7 @@
   }
 
   li {
-    line-height: 2.5;
+    line-height: 2.2;
     margin: 0 1.6rem;
   }
 
@@ -60,7 +60,7 @@
     font-size: $font-size-h5;
 
     span {
-      margin-left: .4rem;
+      margin-left: .3rem;
     }
   }
 }
