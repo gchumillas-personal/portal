@@ -1,0 +1,8 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+.menu {
+  color: $primary-color;
+  font-weight: 400;
+  list-style: upper-roman;
+}
