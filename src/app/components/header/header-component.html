@@ -4,7 +4,7 @@
     <ul>
       <li class="phone"><i class="fa fa-phone"></i> <span>{{env.phone}}</span></li>
       <li class="clock"><i class="fa fa-clock-o"></i> <span>{{env.schedule}}</span></li>
-      <li class="email"><a><i class="fa fa-envelope-o"></i> <span>{{env.email}}</span></a></li>
+      <li class="email"><a [href]="sanitize('mailto:' + env.email + '?subject=Solicitar información')"><i class="fa fa-envelope-o"></i> <span>{{env.email}}</span></a></li>
     </ul>
   </div>
 </div>

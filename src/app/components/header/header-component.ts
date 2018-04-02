@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { environment } from '../../../environments/environment';
 
 @Component({
@@ -12,4 +13,10 @@ import { environment } from '../../../environments/environment';
 })
 export class HeaderComponent {
   env = environment;
+
+  constructor(private _sanitizer: DomSanitizer) { }
+
+  sanitize(url: string) {
+    return this._sanitizer.bypassSecurityTrustUrl(url);
+  }
 }
