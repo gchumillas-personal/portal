@@ -18,6 +18,7 @@
     a {
       color: $primary-color-text;
       text-decoration: none;
+      white-space: normal;
     }
   }
 }
@@ -42,15 +43,15 @@
   li {
     line-height: 2.5;
     margin: 0 1.6rem;
+  }
 
-    &.clock {
+  .clock {
+    display: none;
+  }
+
+  .email {
+    span {
       display: none;
-    }
-
-    &.email {
-      span {
-        display: none;
-      }
     }
   }
 

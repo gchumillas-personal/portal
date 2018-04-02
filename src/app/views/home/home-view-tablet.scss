@@ -3,15 +3,9 @@
 
 @media (min-width: $mobile-screen) {
   .links {
-    ul {
-      .clock {
-        display: block;
-      }
-
-      .email {
-        span {
-          display: inline;
-        }
+    .email {
+      span {
+        display: inline;
       }
     }
   }
