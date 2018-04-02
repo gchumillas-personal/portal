@@ -26,6 +26,9 @@
 .links {
   background-color: $primary-color-dark;
   bottom: 0;
+  color: $primary-color-text;
+  font-size: $font-size-h5;
+  font-weight: 400;
   left: 0;
   position: absolute;
   text-align: center;
@@ -58,6 +61,7 @@
   a {
     color: $primary-color-text;
     font-size: $font-size-h5;
+    text-decoration: none;
 
     span {
       margin-left: .3rem;
