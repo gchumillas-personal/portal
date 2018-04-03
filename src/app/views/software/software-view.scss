@@ -1,15 +1,24 @@
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
-.menu {
-  color: $primary-color;
-  float: right;
-  font-weight: 400;
-  list-style: upper-roman;
-}
-
 .row {
-  flex-direction: row-reverse;
+  // flex-direction: row-reverse;
+
+  .contents {
+    flex: initial;
+    max-width: none;
+  }
+
+  .menu {
+    display: none;
+
+    ul {
+      color: $primary-color;
+      float: right;
+      font-weight: 400;
+      list-style: upper-roman;
+    }
+  }
 }
 
 .thumb {

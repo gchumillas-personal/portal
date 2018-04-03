@@ -39,26 +39,30 @@
   a {
     color: $primary-color-text;
   }
+
+  .clock {
+    display: none;
+  }
 }
 
 .menu {
   background-color: $primary-color-dark;
   bottom: 0;
-  font-size: $font-size-h5;
+  font-size: $font-size-h6;
   left: 0;
   position: absolute;
   width: 100%;
 
   ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     margin: 0;
-    margin-left: 2.5rem;
   }
 
   li {
     line-height: 2;
-    margin: 0 1.5rem 0 0;
+    margin: 0;
   }
 
   a {

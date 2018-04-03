@@ -1,0 +1,17 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+@media (min-width: $tablet-screen) {
+  .row {
+    flex-direction: row-reverse;
+
+    .contents {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+
+    .menu {
+      display: block;
+    }
+  }
+}

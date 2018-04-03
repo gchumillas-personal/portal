@@ -2,11 +2,16 @@
 @import '../../../assets/css/metrics';
 
 @media (min-width: $mobile-screen) {
-  .links {
-    .email {
-      span {
-        display: inline;
-      }
+  .menu {
+    font-size: $font-size-h5;
+
+    ul {
+      justify-content: flex-start;
+      margin-left: 2.5rem;
+    }
+
+    li {
+      margin-right: 1.5rem;
     }
   }
 }

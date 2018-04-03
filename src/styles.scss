@@ -14,7 +14,7 @@
   }
 
   .body {
-    padding: 5rem;
+    padding: 0 2.5rem;
   }
 
   .row {
@@ -50,6 +50,10 @@
 
 @media (min-width: $tablet-screen) {
   :scope {
+    .body {
+      padding: 5rem;
+    }
+
     .container {
       max-width: 112rem;
       padding: 0 2rem;

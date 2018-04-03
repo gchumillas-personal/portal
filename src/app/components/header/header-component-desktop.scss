@@ -3,16 +3,8 @@
 
 @media (min-width: $tablet-screen) {
   .links {
-    ul {
-      width: auto;
-
-      li {
-        margin: 0 3rem 0 0;
-      }
-
-      .clock {
-        display: block;
-      }
+    .clock {
+      display: list-item;
     }
   }
 }
