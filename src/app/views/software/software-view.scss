@@ -15,3 +15,25 @@
 .row {
   flex-direction: row-reverse;
 }
+
+.thumb {
+  border: 1px solid $divider-color;
+  display: inline-block;
+  padding: .6rem;
+
+  img {
+    display: block;
+    width: 20rem;
+  }
+}
+
+.section {
+  clear: both;
+}
+
+.description {
+  .thumb {
+    float: right;
+    margin-left: 2.5rem;
+  }
+}
