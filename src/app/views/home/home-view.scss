@@ -1,6 +1,10 @@
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
+.body {
+  padding: 0;
+}
+
 .block {
   margin-bottom: 2.5rem;
   padding: 0 2rem;

@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer-component';
 import { NotFoundView } from './views/not-found/not-found-view';
 import { HomeView } from './views/home/home-view';
 import { SoftwareView } from './views/software/software-view';
+import { ContactView } from './views/contact/contact-view';
 
 
 @NgModule({
@@ -16,9 +17,10 @@ import { SoftwareView } from './views/software/software-view';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    NotFoundView,
     HomeView,
     SoftwareView,
-    NotFoundView
+    ContactView
   ],
   imports: [
     BrowserModule,
