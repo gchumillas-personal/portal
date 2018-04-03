@@ -1,0 +1,13 @@
+@import '../../../assets/css/palette';
+@import '../../../assets/css/metrics';
+
+@media (min-width: $mobile-screen) {
+  .description {
+    border-bottom: 1px solid transparent;
+    margin-bottom: 2.5rem;
+
+    .thumb {
+      display: inline-block;
+    }
+  }
+}
