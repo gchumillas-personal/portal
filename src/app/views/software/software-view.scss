@@ -1,8 +1,17 @@
 @import '../../../assets/css/palette';
 @import '../../../assets/css/metrics';
 
+.body {
+  padding: 5rem;
+}
+
 .menu {
   color: $primary-color;
+  float: right;
   font-weight: 400;
   list-style: upper-roman;
+}
+
+.row {
+  flex-direction: row-reverse;
 }
