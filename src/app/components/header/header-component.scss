@@ -9,8 +9,11 @@
   position: relative;
 
   h1 {
+    font-size: $font-size-h2;
+
     a {
       color: $primary-color-text;
+      font-weight: 300;
       text-decoration: none;
       white-space: normal;
     }
@@ -21,7 +24,7 @@
   background-color: $primary-color-dark;
   bottom: 0;
   color: $primary-color-text;
-  font-size: $font-size-h5;
+  font-size: $font-size-h6;
   font-weight: 400;
   left: 0;
   position: absolute;
@@ -54,7 +57,7 @@
 
   a {
     color: $primary-color-text;
-    font-size: $font-size-h5;
+    font-size: $font-size-h6;
     text-decoration: none;
 
     span {
