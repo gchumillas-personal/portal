@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 import { AppRoutingModule } from './app.routing-module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,7 @@ import { SoftwareView } from './views/software/software-view';
   ],
   imports: [
     BrowserModule,
+    ScrollToModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
